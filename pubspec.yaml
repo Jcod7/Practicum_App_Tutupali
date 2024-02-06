@@ -1,0 +1,36 @@
+name: sistema_turistico
+description: "A new Flutter project."
+publish_to: 'none'  # Esta línea indica que no se debe publicar el paquete en pub.dev.
+
+version: 1.0.0+1  # Número de versión del proyecto.
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'  # Especifica la versión mínima y máxima del SDK de Dart/Flutter compatible con el proyecto.
+
+dependencies:
+  flutter:
+    sdk: flutter  # Dependencia de Flutter, el SDK de desarrollo de aplicaciones móviles.
+
+  get: ^4.6.6  # Paquete 'get' con la versión 4.6.6 o superior para la gestión de estado en Flutter.
+  flutter_barcode_scanner: ^2.0.0  # Paquete para escanear códigos de barras en Flutter.
+  intl: ^0.17.0  # Paquete para la internacionalización y localización en Flutter.
+  google_maps_flutter: ^2.5.3  # Paquete para integrar Google Maps en aplicaciones Flutter.
+  qr_code_scanner: ^1.0.1  # Paquete para escanear códigos QR en Flutter.
+  http: ^1.2.0  # Paquete para realizar solicitudes HTTP en Flutter.
+  flutter_tts: ^3.8.5  # Paquete para la síntesis de voz en Flutter.
+  cupertino_icons: ^1.0.2  # Iconos de Cupertino, parte del diseño de iOS.
+  font_awesome_flutter: ^9.1.0  # Paquete para integrar iconos de Font Awesome en Flutter.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter  # Dependencia de Flutter para pruebas unitarias.
+
+  flutter_lints: ^2.0.0  # Reglas de linter recomendadas por la comunidad Flutter.
+
+flutter:
+  uses-material-design: true  # Indica que la aplicación utiliza el diseño material.
+  assets:
+    - assets/  # Lista de directorios o archivos que se incluirán como recursos/assets en la aplicación.
+
+
+
